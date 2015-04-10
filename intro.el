@@ -83,8 +83,21 @@ counter;;1
 
 (other-buffer) ; #<buffer *scratch*>
 
+                                        ;2.3 Switching Buffers
+
+(switch-to-buffer (other-buffer))
+
+                                        ; 2.4 buffer size and the location of point
+
+(buffer-size) ;1636
+
+(point) ; 1626
+
+(point-min) ; 1
+(point-max) ; 1689
 
 
 
 
-;;intro.el ends here
+
+;;INTRO.el ends here
