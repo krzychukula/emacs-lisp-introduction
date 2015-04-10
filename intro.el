@@ -33,3 +33,24 @@ fill-column;800
 
 ;;error
 ;;(+ 2 'hello)
+
+
+(message "This message appears in the echo area!")
+;;string
+(message "The name of this buffer is: %s." (buffer-name));;intro.el
+;;integer
+(message "The value of fill-column is %d." fill-column)
+
+(message "There are %d %s in the office!"
+         (- fill-column 14) "pink elephants")
+
+(message "He saw %d %s"
+         (- fill-column 32)
+         (concat "red "
+                 (substring
+                  "The quick brown foxes jumped." 16 21)
+                 " leaping."))
+
+
+
+;;intro.el ends here
