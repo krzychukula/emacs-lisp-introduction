@@ -72,6 +72,17 @@ flowers
 counter;;1
 
 
+;;2
+
+(buffer-name) ; "intro.el"
+(buffer-file-name) ; /full/path/intro.el
+
+;;C-u C-x C-e put expresion in place
+
+(current-buffer) ; #<buffer intro.el>
+
+(other-buffer) ; #<buffer *scratch*>
+
 
 
 
