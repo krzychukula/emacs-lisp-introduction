@@ -51,6 +51,29 @@ fill-column;800
                   "The quick brown foxes jumped." 16 21)
                  " leaping."))
 
+(set 'flowers '(rose violet daisy buttercup))
+
+flowers
+
+'flowers
+
+(set 'carnivores '(lion tiger leopard))
+
+(setq carnivores '(lion tiger leopard))
+
+(setq trees '(pine fir oak maple)
+      herbivores '(gazelle antelope zebra))
+
+;;counter
+(setq counter 0)
+
+(setq counter (+ counter 1))
+
+counter;;1
+
+
+
+
 
 
 ;;intro.el ends here
