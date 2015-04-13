@@ -109,6 +109,13 @@ counter;;1
   "Multiply by seven"
   (+ number number number number number number number))
 
+;; 3.3 Make a Function Interactive
+
+(defun multiply-by-seven (number) ; Interactive version
+  "Multiply by seven"
+  (interactive "p")
+  (message "The result is %d" (* 7 number))
+  )
 
 
 
