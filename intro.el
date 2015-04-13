@@ -97,6 +97,18 @@ counter;;1
 (point-max) ; 1689
 
 
+;;3.1 The defun Macro
+
+(defun multiply-by-seven (number)
+  "Multiply NUMBER by seven"
+  (* 7 number))
+
+(multiply-by-seven 3) ; 21
+
+(defun multiply-by-seven (number) ; Second version
+  "Multiply by seven"
+  (+ number number number number number number number))
+
 
 
 
