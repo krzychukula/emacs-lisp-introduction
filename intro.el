@@ -117,6 +117,25 @@ counter;;1
   (message "The result is %d" (* 7 number))
   )
 
+;; 3.6 let
+
+(let ((zebra 'stripes)
+      (tiger 'fierce))
+  (message "One kind of animal has %s and another is %s." zebra tiger))
+;; "One kind of animal has stripes and another is fierce."
+
+;;3.6.3 Unitialized Variables in a let Statement
+
+(let ((birch 3)
+      pine
+      fir
+      (oak 'some))
+  (message "Here are %d variables with %s, %s, and %s value"
+           birch pine fir oak))
+;; "Here are 3 variables with nil, nil, and some value"
+
+
+
 
 
 ;;INTRO.el ends here
