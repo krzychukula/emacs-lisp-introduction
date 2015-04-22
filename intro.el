@@ -135,6 +135,19 @@ counter;;1
 ;; "Here are 3 variables with nil, nil, and some value"
 
 
+;; 3.7 The if Special Form
+
+(if (> 5 4)
+    (message "5 is greater than 4!"))
+;;"5 is greater than 4!"
+
+(defun type-of-animal (characteristic)
+  "print message in echo area depending on characteristic"
+  (if (equal characteristic 'fierce)
+      (message "It's a tiger!")))
+
+(type-of-animal 'fierce);;"It's a tiger!"
+(type-of-animal 'zebra) ;;nil
 
 
 
