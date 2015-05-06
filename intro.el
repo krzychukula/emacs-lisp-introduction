@@ -149,6 +149,20 @@ counter;;1
 (type-of-animal 'fierce);;"It's a tiger!"
 (type-of-animal 'zebra) ;;nil
 
+;; 3.8 if-then-else Expressin
 
+(if (> 4 5)
+    (message "4 is greater than 5!")
+  (message "4 is not greater than 5!")) ;; else part
+;; "4 is not greater than 5!"
+
+(defun type-of-animal (characteristic)
+  "Print message is echo area depending on Characteristic"
+  (if (equal characteristic 'fierce)
+      (message "It's a tiger!")
+    (message "It's not fierce!")))
+
+(type-of-animal 'fierce) ;; "It's a tiger!"
+(type-of-animal 'zebra)  ;; "It's not fierce!"
 
 ;;INTRO.el ends here
