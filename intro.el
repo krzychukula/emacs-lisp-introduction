@@ -165,4 +165,17 @@ counter;;1
 (type-of-animal 'fierce) ;; "It's a tiger!"
 (type-of-animal 'zebra)  ;; "It's not fierce!"
 
+;; 3.9 Truth and Falsehood in Emacs Lisp
+
+(if 4
+    'true
+  'false) ;; true
+
+(if nil
+    'true
+  'false) ;; false
+
+(> 5 4) ;; t
+(> 4 5) ;; nil
+
 ;;INTRO.el ends here
