@@ -178,4 +178,12 @@ counter;;1
 (> 5 4) ;; t
 (> 4 5) ;; nil
 
+;; 3.10 save-excursion
+
+(save-excursion
+  '(does something to point and mark))
+;;restores point and mark after executing body
+
+
+
 ;;INTRO.el ends here
